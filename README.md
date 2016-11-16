@@ -1,4 +1,4 @@
-# html5, css3, jquery, tachyons
+# responsive-navbar
 
 ## License
 
