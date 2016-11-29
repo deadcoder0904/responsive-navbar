@@ -6,19 +6,19 @@
 
 ## Laptop
 
-![Laptop](http://imgur.com/oznoiI3.png)
+![1920X963](http://imgur.com/oznoiI3.png)
 
 ## Tablet
 
-![Tablet](http://imgur.com/4rfV0eJ.png)
+![576X768](http://imgur.com/4rfV0eJ.png)
 
 ## Phone
 
-![Phone](http://imgur.com/05Z7LyP.png)
+![489X912](http://imgur.com/05Z7LyP.png)
 
 ## Watch
 
-![Watch](http://imgur.com/Njj22Za.png)
+![489X912](http://imgur.com/Njj22Za.png)
 
 ## License
 
