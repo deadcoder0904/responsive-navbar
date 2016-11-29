@@ -2,25 +2,31 @@
 <html>
 
 <head>
-	<title>Github Emojis</title>
-	<link href='http://emojicss.com/emoji.css' rel='stylesheet'>
+	<title>Responsive Navbar</title>
 	<link rel='stylesheet' href='css/tachyons.min.css'/>
 	<link rel='stylesheet' href='css/style.css'/>
 </head>
 
-<body class='bg-blue'>
-	<div class='app tc'>
-		
-		<h1 class='header bg-navy courier grow dib pa4 br4 white'>
-			<i class='em em-octocat'></i> EMOJIS <i class='em em-stuck_out_tongue_winking_eye'></i>
-		</h1>
-
-		<div id='app'>
-        
-		</div>
-
+<body>
+	<div class='app'>
+		<nav class="nav">
+			<ul class="list ba pa0 ma0 flex tc">
+				<li class="links pa3 f2 dim pointer b"><a href="#" class="link">Link 1</a></li>
+				<li class="links pa3 f2 dim pointer b"><a href="#" class="link">Link 2</a></li>
+				<li class="links pa3 f2 dim pointer b"><a href="#" class="link">Link 3</a></li>
+				<li class="links pa3 f2 dim pointer b"><a href="#" class="link">Link 4</a></li>
+				<li class="social dim pa3 pointer"><a href="#" class="link"><img src="img/Facebook.svg" class="dim" alt="Facebook" /></a></li>
+				<li class="social dim pa3 pointer"><a href="#" class="link"><img src="img/Github.svg" class="dim" alt="Github" /></a></li>
+				<li class="social dim pa3 pointer"><a href="#" class="link"><img src="img/Instagram.svg" class="dim" alt="Instagram" /></a></li>
+				<li class="social dim pa3 pointer"><a href="#" class="link"><img src="img/YouTube.svg" class="dim" alt="YouTube" /></a></li>
+			</ul>
+		</nav>
 	</div>
-	
+
+	<div class="tc f1 pt4" id="awesome-nav">
+		Awesome Navbar 🖐 Try Resizing your browser 👽
+	</div>
+
 	<script src='js/jquery-3.1.1.min.js'></script>
 	<script src='js/app.js'></script>
 </body>

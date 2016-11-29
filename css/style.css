@@ -1,0 +1,40 @@
+* {
+	color: #abda53;
+	background-color: #1c1b1b;
+}
+
+nav {
+	max-width: 1000px;
+	margin: 0px auto;
+	padding: 50px;
+}
+
+.links {
+	flex: 3;
+}
+
+.social {
+	flex: 1;
+}
+
+@media all and (max-width: 1000px) {
+	.nav>ul {
+		flex-wrap: wrap;
+	}
+
+	.nav>ul>li {
+		flex: 1 1 50%;
+	}
+
+	.nav>ul>li.social {
+		flex: 1 1 25%;
+	}
+}
+
+@media all and (max-width: 500px) {
+
+	.nav>ul>li {
+		flex-basis: 100%;
+	}
+
+}
